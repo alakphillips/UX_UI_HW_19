@@ -127,7 +127,8 @@ padding-left: 300px
 }
 #view-all-projects {
   text-align: center;
-  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   color: lightgrey;
 }
 /* END "FEATURED PROJECTS" */
