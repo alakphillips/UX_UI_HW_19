@@ -17,3 +17,8 @@ $("#work-section").click(function() {
         scrollTop: $("#projects").offset().top
     }, 100);
 });
+$("#contact-section").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(".contact").offset().top
+    }, 100);
+});

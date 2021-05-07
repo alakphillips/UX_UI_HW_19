@@ -16,6 +16,17 @@ button {
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
 }
+button:hover {
+  width: 207px;
+  height: 38px;
+  left: 730px;
+  top: 568px;
+  background-color: white;
+  color: black;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  transition: all 0.3 ease;
+}
 h1, h3, h4, p {
   font-family: Roboto;
   font-style: normal;
@@ -131,12 +142,21 @@ padding-left: 300px
   padding-bottom: 100px;
   color: lightgrey;
 }
+#view-all-projects:hover {
+  color:white;
+  text-decoration: underline;
+  transition: all 0.3 ease;
+}
 /* END "FEATURED PROJECTS" */
 
 /* START FOOTER */
 .contact {
   text-align: center;
   padding-bottom: 100px;
+}
+#contact-email:hover {
+text-decoration: underline;
+transition: all 0.3 ease;
 }
 footer {
   background-color: #0E0E0E;
@@ -153,6 +173,10 @@ footer {
   font-style: normal;
   display: inline-block;
   padding: 10px;
+}
+.footer_text:hover {
+  text-decoration: underline;
+  transition: all 0.3 ease;
 }
 #copyrightfooter {
   padding: 20px;
@@ -205,6 +229,4 @@ padding-right: 50px;
 #projects {
   text-align: Center;
   padding: 100px;
-}
-
 }
