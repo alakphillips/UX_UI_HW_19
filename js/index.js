@@ -11,7 +11,6 @@ $("#skills-section").click(function() {
         scrollTop: $(".myskills").offset().top
     }, 100);
 });
-
 $("#work-section").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#projects").offset().top
